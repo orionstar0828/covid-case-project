@@ -1,0 +1,46 @@
+.tableContainer .iconColor {
+    color: rgb(255, 213, 103);
+}
+.tableContainer {
+    font-size: 30px;
+    padding: 30px 100px;
+}
+.tableContainer Th {
+    font-size: 30px;
+}
+.tableContainer .searchStyle {
+    margin-left: 30px;
+    font-size: 20px;
+}
+.paginationStyle {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0 5rem;
+}
+.paginationStyle li a {
+    border-radius: 7px;
+    padding: 0.1rem 1rem;
+    border: gray 1px solid;
+    cursor: pointer;
+}
+.paginationStyle li.previous a,
+.paginationStyle li.next a,
+.paginationStyle li.break a {
+    border-color: transparent;
+}
+.paginationStyle li.active a {
+    background-color: #0366d6;
+    border-color: transparent;
+    color: white;
+    min-width: 32px;
+}
+.paginationStyle li.disabled a {
+    color: grey;
+}
+.paginationStyle li.disable,
+.paginationStyle li.disabled a {
+    cursor: default;
+}
